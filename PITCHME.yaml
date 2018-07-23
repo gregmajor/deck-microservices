@@ -1,0 +1,15 @@
+#
+# GitPitch Slideshow Custom Settings
+#
+# For details, visit Wiki:
+# https://github.com/gitpitch/gitpitch/wiki/Slideshow-Settings
+#
+theme : simple
+theme-override : assets/css/PITCHME.css
+# theme-override : assets/css/PITCHME.codemax.css
+highlight : tomorrow-night-bright
+layout : top
+logo : assets/images/logo.png
+transition : none
+published : true
+footnote : "Docker 101"
