@@ -21,7 +21,8 @@ html:-moz-full-screen-ancestor {
 }
 
 .reveal blockquote {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  width: 90%;
 }
 
 .reveal pre {
