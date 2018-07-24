@@ -1,6 +1,6 @@
-## Exploring Microservices
+# Exploring Microservices
 ![Microservices](assets/images/microservices.png)
-
+### 50 Tips with Greg Major
 ---
 
 ## The 30-Second Buzz
@@ -143,17 +143,30 @@ Microservices done _well_ will:
 
 ---
 
+## Environments & Infrastructure
+
+<blockquote>"Technology presumes there's just one right way to do things and there never is." -Robert Pirsig, author</blockquote>
+
+@ul
+- TIP: Use containers like [Docker](https://www.docker.com)
+- TIP: Lean on container orchestrators like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/)
+- TIP: Use tools like [etcd](https://coreos.com/etcd/) or [Consul](https://www.consul.io/) for service registration and shared config
+- TIP: Make life easier with [Helm](https://helm.sh/), [Rancher](https://rancher.com/), and [Weave](https://www.weave.works/)
+- TIP: Consider just two environments; production and pre-production
+@ulend
+
+
 ## Other Stuff
 
 <blockquote>"What's the simplest thing that could possibly work?" -Ward Cunningham, programmer</blockquote>
 
 @ul
-- TIP: Lean on container orchestrators like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/)
 - TIP: Don't build what you should buy (crypto, authentication, payment processing)
-- TIP: Use distributed settings with tools like [etcd](https://coreos.com/etcd/), [Consul](https://www.consul.io/), or K8S secrets
 - TIP: Use feature flags
-- TIP: Consider just two environments; production and pre-production
 @ulend
+- TIP: Actually _do_ peer reviews
+- TIP: Do the simplest thing that could possibly work
+- TIP: *NEVER* put fifty tips in a single presentation
 
 ---
 
