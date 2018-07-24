@@ -164,10 +164,10 @@ Microservices done _well_ will:
 @ul
 - TIP: Don't build what you should buy (crypto, authentication, payment processing)
 - TIP: Use feature flags
-@ulend
 - TIP: Actually _do_ peer reviews
 - TIP: Do the simplest thing that could possibly work
 - TIP: *NEVER* put fifty tips in a single presentation
+@ulend
 
 ---
 
