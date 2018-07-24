@@ -1,4 +1,4 @@
-# Exploring Microservices
+## Exploring Microservices
 ![Microservices](assets/images/microservices.png)
 ### 50 Tips with Greg Major
 ---
