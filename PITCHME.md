@@ -33,7 +33,7 @@ Microservices done _well_ will:
 
 ## Does This Code Make My Service Look Big?
 
-<blockquote>"You can drop a mouse down a thousand-yard mine shaft; and, on arriving at the bottom, it gets a slight shock and walks away, provided that the ground is fairly soft. A rat is killed, a man is broken, a horse splashes." -(J.B.S. Haldane, scientist)[https://en.wikipedia.org/wiki/J._B._S._Haldane]</blockquote>
+<blockquote>"You can drop a mouse down a thousand-yard mine shaft; and, on arriving at the bottom, it gets a slight shock and walks away, provided that the ground is fairly soft. A rat is killed, a man is broken, a horse splashes." -J.B.S. Haldane, scientist</blockquote>
 
 @ul
 - TIP: Start small and move fast
@@ -108,9 +108,9 @@ Microservices done _well_ will:
 @ul
 - TIP: Master context switching without imprinted behavior
 - TIP: Avoid "common" libraries (yes, even _that_ one)
-- TIP: Take the time to document your API with tools like (Swagger)[https://swagger.io/]
+- TIP: Take the time to document your API with tools like [Swagger](https://swagger.io/)
 - TIP: Don't build what doesn't make sense
-- TIP: Decouple everything (source control, CI/CD, etc.)
+- TIP: Decouple everything (source control, CI/CD)
 @ulend
 
 ---
@@ -121,9 +121,9 @@ Microservices done _well_ will:
 
 @ul
 - TIP: Use correlation ids (ex: `X-Correlation-Id` header)
-- TIP: Employ structured logs like (Serilog)[https://serilog.net/]
-- TIP: Aggregate logging with tools like the (ELK Stack)[https://www.elastic.co/elk-stack]
-- TIP: Implement _real_ health checks like (App Metrics)[https://www.app-metrics.io/]
+- TIP: Employ structured logs like [Serilog](https://serilog.net/)
+- TIP: Aggregate logging with tools like the [ELK Stack](https://www.elastic.co/elk-stack)
+- TIP: Implement _real_ health checks like [App Metrics](https://www.app-metrics.io/)
 - TIP: Aim for the highest signal-to-noise ratio
 @ulend
 
@@ -131,10 +131,10 @@ Microservices done _well_ will:
 
 ## You? I?
 
-<blockquote>“A user interface is like a joke. If you have to explain it, it's not that good”. — Martin Leblanc, founder (iconfinder.com)[https://t.co/IMyHh0kj6T]</blockquote>
+<blockquote>“A user interface is like a joke. If you have to explain it, it's not that good”. — Martin Leblanc, founder iconfinder.com</blockquote>
 
 @ul
-- TIP: Look _hard_ at (Web Components)[https://www.webcomponents.org/]
+- TIP: Look _hard_ at [Web Components](https://www.webcomponents.org/)
 - TIP: Be agnostic
 - TIP: Allocate plenty of time for client-side state management
 - TIP: Provide service-hosted frames for testing
@@ -148,9 +148,9 @@ Microservices done _well_ will:
 <blockquote>"What's the simplest thing that could possibly work?" -Ward Cunningham, programmer</blockquote>
 
 @ul
-- TIP: Lean on container orchestrators like (Kubernetes)[https://kubernetes.io/] or (Amazon ECS)[https://aws.amazon.com/ecs/]
+- TIP: Lean on container orchestrators like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/)
 - TIP: Don't build what you should buy (crypto, authentication, payment processing)
-- TIP: Use distributed settings with tools like (etcd)[https://coreos.com/etcd/], (Consul)[https://www.consul.io/], or K8S secrets
+- TIP: Use distributed settings with tools like [etcd](https://coreos.com/etcd/), [Consul](https://www.consul.io/), or K8S secrets
 - TIP: Use feature flags
 - TIP: Consider just two environments; production and pre-production
 @ulend

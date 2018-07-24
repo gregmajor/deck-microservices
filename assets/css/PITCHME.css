@@ -20,6 +20,10 @@ html:-moz-full-screen-ancestor {
   background-color: #fff;
 }
 
+.reveal blockquote {
+  font-size: 0.9em;
+}
+
 .reveal pre {
   width: 100%;
   /* margin-left: 20px; */

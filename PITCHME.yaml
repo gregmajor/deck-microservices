@@ -9,7 +9,7 @@ theme-override : assets/css/PITCHME.css
 # theme-override : assets/css/PITCHME.codemax.css
 highlight : tomorrow-night-bright
 layout : top
-logo : assets/images/logo.png
+# logo : assets/images/logo.png
 transition : none
 published : true
-footnote : "Docker 101"
+footnote : "Exploring Microservices"
