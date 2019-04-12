@@ -1,5 +1,6 @@
 ## Microservices Blitz!
 ![Microservices](assets/images/microservices.png)
+### The Agile Shift 2019
 ### 50 Chaotic Tips with Greg Major
 ---
 
