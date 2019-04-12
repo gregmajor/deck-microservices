@@ -174,4 +174,6 @@ Microservices done _well_ will:
 
 ## Go Be Awesome!
 
+https://gitpitch.com/gregmajor/deck-microservices
+
 greg@gregmajor.com
