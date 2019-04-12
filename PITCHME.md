@@ -1,6 +1,6 @@
-## Exploring Microservices
+## Microservices Blitz!
 ![Microservices](assets/images/microservices.png)
-### 50 Tips with Greg Major
+### 50 Chaotic Tips with Greg Major
 ---
 
 ## The 30-Second Buzz
@@ -39,8 +39,8 @@ Microservices done _well_ will:
 - TIP: Start small and move fast
 - TIP: Make them only as big as need be (or perhaps a tiny bit smaller)
 - TIP: Look to Domain Driven Design for help
-- TIP: They ain't pets, they're cattle
-- TIP: Size really doesn't matter
+- TIP: They aren't pets, they're cattle
+- TIP: Size really doesn't matter (much)
 @ulend
 
 ---
@@ -107,7 +107,7 @@ Microservices done _well_ will:
 
 @ul
 - TIP: Master context switching without imprinted behavior
-- TIP: Avoid "common" libraries (yes, even _that_ one)
+- TIP: Avoid common/shared/base libraries
 - TIP: Take the time to document your API with tools like [Swagger](https://swagger.io/)
 - TIP: Don't build what doesn't make sense
 - TIP: Decouple everything (source control, CI/CD)
